@@ -57,3 +57,4 @@ jspm_packages
 
 # MongoDB
 data/*
+!data/empty
