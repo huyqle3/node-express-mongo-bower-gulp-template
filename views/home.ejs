@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class="container">
+	  <div class="row">
+	    <div class="col-sm-6 col-md-4 col-md-offset-4">
+	      <div>
+	        <h3 class="text-center">Welcome <%= user.firstName %>.</h3>
+	          <div>
+	            <ul class="list-unstyled">
+	              <li>Username: <%= user.username %></li>
+	              <li>Email: <%= user.email %></li>
+	              <li>First Name: <%= user.firstName %></li>
+	              <li>Last Name: <%= user.lastName %></li>
+	            </ul>
+	          </div>
+	          <a href="/blogpost" class="btn btn-lg btn-success btn-block sm-negative-margin-bot">Blog Post</a>
+	          <a href="/logout" class="btn btn-lg btn-danger btn-block">Log Out</a>
+	        </h1>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+  </body>
+</html>

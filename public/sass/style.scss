@@ -1,6 +1,10 @@
 @import "bootstrap";
 @import "font-awesome";
 
-body {
-	color: blue;
+/**
+ * A negative margin-bottom used on the home page to push the log out button
+ *		upward closer to the blog post button.
+ */
+.sm-negative-margin-bot {
+	margin-bottom: -5px;
 }

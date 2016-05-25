@@ -52,4 +52,8 @@ jspm_packages
 !/test/sample/bower.json
 /npm-shrinkwrap.json
 
+# Mac files
 .DS_Store
+
+# MongoDB
+data/*

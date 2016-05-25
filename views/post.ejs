@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title><%= title %></title>
+		<link rel='stylesheet' href='/stylesheets/style.css' />
+	</head>
+  	<body>
+	  	<div class="container">
+	     	<div class="row">
+	     		<%# Lists all posts if they exist. %>
+		     	<h1>Posts</h1>
+		    	<% if (posts.length > 0) { %>
+		    		<% for(var i=0; i < posts.length; i++) { %>
+			 			<div class="col-md-3">
+			 				<p><%= posts[i].title %></p>
+			 			</div>
+			 			<div class="col-md-9">
+			 				<p><%= posts[i].post %></p>
+			 			</div>
+			 		<% } %>
+		 		<% } else { %>
+		 			<p>No posts.</p>
+		 		<% } %>
+		 	</div>
+
+		 	<div class="row">
+		 		<%# Lists your posts if they exist. %>
+		    	<% if (yourPosts.length > 0) { %>
+		    		<h1>Your posts</h1>
+		    		<% for(var i=0; i < yourPosts.length; i++) { %>
+			 			<div class="col-md-3">
+			 				<p><%= yourPosts[i].title %></p>
+			 			</div>
+			 			<div class="col-md-9">
+			 				<p><%= yourPosts[i].post %></p>
+			 			</div>
+			 		<% } %>
+		 		<% } %>
+	 		</div>
+
+			<div class="row">
+				<div class="col-sm-6 col-md-4">
+					<%# Triggers the create new post POST request. %>
+					<h1 class="text-center">Create a new post<h1>
+					<div>
+						<form action="/blogpost" method="POST">
+					    	<input type="text" name="title" placeholder="Title" required="required" autofocus="autofocus" class="form-control"/>
+					    	<textarea type="text" name="post" placeholder="Post" required="required" class="form-control"></textarea>
+					    	<button type="submit" class="btn btn-lg btn-success btn-block">Post</button><span class="clearfix"></span>
+						</form>
+				  	</div>
+				  	<br>
+				  	<a href="/home" class="btn btn-lg btn-primary btn-block">Back to home page</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -8008,5 +8008,5 @@ button.close {
   overflow: visible;
   clip: auto; }
 
-body {
-  color: blue; }
+.sm-negative-margin-bot {
+  margin-bottom: -5px; }
