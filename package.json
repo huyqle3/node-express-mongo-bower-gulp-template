@@ -1,5 +1,5 @@
 {
-  "name": "node-express-bower-gulp-template",
+  "name": "node-express-mongo-bower-gulp-template",
   "version": "0.0.0",
   "private": true,
   "scripts": {

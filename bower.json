@@ -1,0 +1,22 @@
+{
+  "name": "node-express-mongo-bower-gulp-template",
+  "description": "",
+  "main": "",
+  "authors": [
+    "huyle333 <huyle333@bu.edu>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/huyle333/node-express-mongo-bower-gulp-template",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "font-awesome": "fontawesome#^4.6.3"
+  }
+}
