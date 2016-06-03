@@ -5,7 +5,7 @@ An organized template, using node.js, express, mongodb, bower, and gulp to creat
 ![Log-in Screen](https://raw.githubusercontent.com/huyle333/node-express-mongo-bower-gulp-template/master/public/images/login-screen.png "Log-in Screen")
 
 ### Setup
-All instructions for setup and local development is listed [here](http://www.slothparadise.com/recommended-node-express-mongo-bower-gulp-setup/).
+All instructions for setup and local development are listed in [this blog post here](http://www.slothparadise.com/recommended-node-express-mongo-bower-gulp-setup/).
 
 ### Local development
 To use this template as it is, you can git clone the repo:
