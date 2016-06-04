@@ -14,7 +14,7 @@
     "ejs": "^2.4.1",
     "express": "~4.13.1",
     "express-session": "^1.13.0",
-    "mongodb": "^2.1.19",
+    "mongodb": "^2.1.21",
     "mongoose": "^4.4.19",
     "morgan": "~1.6.1",
     "passport": "^0.3.2",

@@ -23,7 +23,7 @@ npm install && bower install && gulp
 
 Now that we have all the files, to develop on this template locally, you should have 5 terminals/terminal tabs open.
 
-- 1st terminal: `mongodb --dbpath data/`
+- 1st terminal: `mongod --dbpath data/`
 - 2nd terminal: `mongo`
 - 3rd terminal: `gulp watch`
 - 4th terminal: `npm start`
