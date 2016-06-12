@@ -28,3 +28,5 @@ Now that we have all the files, to develop on this template locally, you should 
 - 3rd terminal: `gulp watch`
 - 4th terminal: `npm start`
 - 5th terminal: `Extra terminal for miscellaneous commands.`
+
+After running `npm start`, you can open a web browser and visit [http://localhost:3000](http://localhost:3000) to see your locally developed website.
